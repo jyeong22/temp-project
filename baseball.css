@@ -1,0 +1,58 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url('baseball.jpg');
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position:center top;
+    height: 100%;
+}
+main{
+    margin-top: 500px;
+    width: 1000px;
+    text-align: center;
+    margin:auto;
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse; /*태두리 사이의 간격을 없애고 싶을 떄*/
+    width: 1000px;
+}
+
+th, td{
+    border: 2px solid black;
+    padding:10px;
+}
+
+#buttons{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#input{
+    margin-top: 40px;
+    border-color: black;
+}
+
+input{
+    height:40px;
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 100px;
+}
+
+@media (max-width: 1015px){
+    body{
+        background-size: 100%;
+        width:100%;
+    }
+    main{
+        width:100%;
+    }
+    table{
+        width: 100%;
+    }
+}
